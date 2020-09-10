@@ -1,0 +1,62 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+
+header {
+}  
+
+main {
+  background-image: url("../marusan_and_wacca/image/background-ex.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+footer {
+  height: 1000px;
+}
+
+.container {
+  text-align: center;
+}
+
+.main-left {
+  width: 58%;
+  float: left;
+  color: white;
+  opacity: 0.9;
+  margin-top: 20%;
+}
+
+.main-logo {
+  width: 200px;
+}
+
+.main-left h1 {
+  font-size: 70px;
+}
+
+.main-left {
+  font-size: 25px;
+}
+
+.main-right {
+  float: right;
+  padding-top: 27%;
+  padding-right: 26%;
+  font-size: 20px;
+}
+
+a {
+  color: #550000;
+  opacity: 0.7;
+}
